@@ -1,0 +1,14 @@
+###################################################################
+
+# Created by write_script -format dctcl on Sat Mar 16 00:53:02 2019
+
+###################################################################
+
+# Set the current_design #
+current_design GCD
+
+set_units -time ns -resistance kOhm -capacitance pF -voltage V -current mA
+remove_wire_load_model
+set_local_link_library {slow.db,fast.db}
+create_clock [get_ports CLK]  -period 10  -waveform {0 5}
+1

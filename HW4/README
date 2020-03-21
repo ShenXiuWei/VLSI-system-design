@@ -1,0 +1,7 @@
+--How to Simulate
+Put all files in the same directory , enter the following command:
+$ make sim
+It will start simulation design.
+
+$ make syn
+It will start simulation synthesized design.

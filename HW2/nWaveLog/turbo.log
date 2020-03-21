@@ -1,0 +1,5 @@
+Command Line: /usr/cad/synopsys/verdi/cur/platform/LINUXAMD64/bin/Novas
+uname(Linux ic56.cs.nthu.edu.tw 2.6.32-696.1.1.el6.x86_64 #1 SMP Tue Apr 11 17:13:24 UTC 2017 x86_64)
+Disabled AskUser2 Message (Response 0): Remember to save signals to a signal file.
+Do you want to continue?
+Signal SIGHUP is received. Shutting down...

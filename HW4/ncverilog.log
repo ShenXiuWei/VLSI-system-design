@@ -1,0 +1,1673 @@
+ncverilog: 14.10-s005: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncverilog	14.10-s005: Started on May 02, 2019 at 12:40:37 CST
+ncverilog
+	+nctimescale+1ns/1ps
+	header.v
+	hw04_t.v
+	top.v
+	hw04_nonsyn.v
+	hw04_syn.v
+	-v
+	/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v
+	+access+r
+file: hw04_t.v
+	module worklib.testbench:v
+		errors: 0, warnings: 0
+file: top.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: hw04_nonsyn.v
+	module worklib.sram_A_2048x8:v
+		errors: 0, warnings: 0
+	module worklib.sram_B_2048x8:v
+		errors: 0, warnings: 0
+	module worklib.sram_C_2048x8:v
+		errors: 0, warnings: 0
+file: hw04_syn.v
+	module worklib.controller:v
+		errors: 0, warnings: 0
+		Caching library 'tsmc13' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+  EDFFX1 \a_reg[3][0]  ( .D(value_a[0]), .E(N143), .CK(clk), .Q(\a[3][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,149|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[3][1]  ( .D(value_a[1]), .E(N143), .CK(clk), .Q(\a[3][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,150|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[3][2]  ( .D(value_a[2]), .E(N143), .CK(clk), .Q(\a[3][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,151|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[3][3]  ( .D(value_a[3]), .E(N143), .CK(clk), .Q(\a[3][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,152|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[3][4]  ( .D(value_a[4]), .E(N143), .CK(clk), .Q(\a[3][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,153|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[3][5]  ( .D(value_a[5]), .E(N143), .CK(clk), .Q(\a[3][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,154|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[3][6]  ( .D(value_a[6]), .E(N143), .CK(clk), .Q(\a[3][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,155|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[3][7]  ( .D(value_a[7]), .E(N143), .CK(clk), .Q(\a[3][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,156|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[12][7]  ( .D(value_b[7]), .E(N133), .CK(clk), .Q(\b[12][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,157|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[12][6]  ( .D(value_b[6]), .E(N133), .CK(clk), .Q(\b[12][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,159|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[12][5]  ( .D(value_b[5]), .E(N133), .CK(clk), .Q(\b[12][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,161|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[12][4]  ( .D(value_b[4]), .E(N133), .CK(clk), .Q(\b[12][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,163|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[12][3]  ( .D(value_b[3]), .E(N133), .CK(clk), .Q(\b[12][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,165|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[12][2]  ( .D(value_b[2]), .E(N133), .CK(clk), .Q(\b[12][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,167|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[12][1]  ( .D(value_b[1]), .E(N133), .CK(clk), .Q(\b[12][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,169|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[12][0]  ( .D(value_b[0]), .E(N133), .CK(clk), .Q(\b[12][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,171|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[2][0]  ( .D(value_a[0]), .E(N144), .CK(clk), .Q(\a[2][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,173|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[2][1]  ( .D(value_a[1]), .E(N144), .CK(clk), .Q(\a[2][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,174|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[2][2]  ( .D(value_a[2]), .E(N144), .CK(clk), .Q(\a[2][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,175|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[2][3]  ( .D(value_a[3]), .E(N144), .CK(clk), .Q(\a[2][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,176|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[2][4]  ( .D(value_a[4]), .E(N144), .CK(clk), .Q(\a[2][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,177|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[2][5]  ( .D(value_a[5]), .E(N144), .CK(clk), .Q(\a[2][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,178|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[2][6]  ( .D(value_a[6]), .E(N144), .CK(clk), .Q(\a[2][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,179|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[2][7]  ( .D(value_a[7]), .E(N144), .CK(clk), .Q(\a[2][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,180|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[8][7]  ( .D(value_b[7]), .E(N138), .CK(clk), .Q(\b[8][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,181|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[8][6]  ( .D(value_b[6]), .E(N138), .CK(clk), .Q(\b[8][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,182|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[8][5]  ( .D(value_b[5]), .E(N138), .CK(clk), .Q(\b[8][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,183|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[8][4]  ( .D(value_b[4]), .E(N138), .CK(clk), .Q(\b[8][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,184|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[8][3]  ( .D(value_b[3]), .E(N138), .CK(clk), .Q(\b[8][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,185|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[8][2]  ( .D(value_b[2]), .E(N138), .CK(clk), .Q(\b[8][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,186|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[8][1]  ( .D(value_b[1]), .E(N138), .CK(clk), .Q(\b[8][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,187|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[8][0]  ( .D(value_b[0]), .E(N138), .CK(clk), .Q(\b[8][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,188|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[1][0]  ( .D(value_a[0]), .E(N145), .CK(clk), .Q(\a[1][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,189|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[1][1]  ( .D(value_a[1]), .E(N145), .CK(clk), .Q(\a[1][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,190|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[1][2]  ( .D(value_a[2]), .E(N145), .CK(clk), .Q(\a[1][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,191|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[1][3]  ( .D(value_a[3]), .E(N145), .CK(clk), .Q(\a[1][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,192|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[1][4]  ( .D(value_a[4]), .E(N145), .CK(clk), .Q(\a[1][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,193|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[1][5]  ( .D(value_a[5]), .E(N145), .CK(clk), .Q(\a[1][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,194|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[1][6]  ( .D(value_a[6]), .E(N145), .CK(clk), .Q(\a[1][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,195|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[1][7]  ( .D(value_a[7]), .E(N145), .CK(clk), .Q(\a[1][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,196|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[4][7]  ( .D(value_b[7]), .E(N142), .CK(clk), .Q(\b[4][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,197|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[4][6]  ( .D(value_b[6]), .E(N142), .CK(clk), .Q(\b[4][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,198|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[4][5]  ( .D(value_b[5]), .E(N142), .CK(clk), .Q(\b[4][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,199|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[4][4]  ( .D(value_b[4]), .E(N142), .CK(clk), .Q(\b[4][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,200|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[4][3]  ( .D(value_b[3]), .E(N142), .CK(clk), .Q(\b[4][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,201|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[4][2]  ( .D(value_b[2]), .E(N142), .CK(clk), .Q(\b[4][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,202|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[4][1]  ( .D(value_b[1]), .E(N142), .CK(clk), .Q(\b[4][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,203|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[4][0]  ( .D(value_b[0]), .E(N142), .CK(clk), .Q(\b[4][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,204|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[0][0]  ( .D(value_a[0]), .E(N146), .CK(clk), .Q(\a[0][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,205|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[0][1]  ( .D(value_a[1]), .E(N146), .CK(clk), .Q(\a[0][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,206|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[0][2]  ( .D(value_a[2]), .E(N146), .CK(clk), .Q(\a[0][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,207|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[0][3]  ( .D(value_a[3]), .E(N146), .CK(clk), .Q(\a[0][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,208|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[0][4]  ( .D(value_a[4]), .E(N146), .CK(clk), .Q(\a[0][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,209|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[0][5]  ( .D(value_a[5]), .E(N146), .CK(clk), .Q(\a[0][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,210|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[0][6]  ( .D(value_a[6]), .E(N146), .CK(clk), .Q(\a[0][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,211|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[0][7]  ( .D(value_a[7]), .E(N146), .CK(clk), .Q(\a[0][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,212|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[0][7]  ( .D(value_b[7]), .E(N146), .CK(clk), .Q(\b[0][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,213|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[0][6]  ( .D(value_b[6]), .E(N146), .CK(clk), .Q(\b[0][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,214|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[0][5]  ( .D(value_b[5]), .E(N146), .CK(clk), .Q(\b[0][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,215|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[0][4]  ( .D(value_b[4]), .E(N146), .CK(clk), .Q(\b[0][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,216|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[0][3]  ( .D(value_b[3]), .E(N146), .CK(clk), .Q(\b[0][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,217|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[0][2]  ( .D(value_b[2]), .E(N146), .CK(clk), .Q(\b[0][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,218|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[0][1]  ( .D(value_b[1]), .E(N146), .CK(clk), .Q(\b[0][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,219|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[0][0]  ( .D(value_b[0]), .E(N146), .CK(clk), .Q(\b[0][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,220|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[1][7]  ( .D(value_b[7]), .E(N145), .CK(clk), .Q(\b[1][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,221|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[1][6]  ( .D(value_b[6]), .E(N145), .CK(clk), .Q(\b[1][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,222|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[1][5]  ( .D(value_b[5]), .E(N145), .CK(clk), .Q(\b[1][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,223|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[1][4]  ( .D(value_b[4]), .E(N145), .CK(clk), .Q(\b[1][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,224|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[1][3]  ( .D(value_b[3]), .E(N145), .CK(clk), .Q(\b[1][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,225|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[1][2]  ( .D(value_b[2]), .E(N145), .CK(clk), .Q(\b[1][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,226|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[1][1]  ( .D(value_b[1]), .E(N145), .CK(clk), .Q(\b[1][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,227|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[1][0]  ( .D(value_b[0]), .E(N145), .CK(clk), .Q(\b[1][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,228|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[3][7]  ( .D(value_b[7]), .E(N143), .CK(clk), .Q(\b[3][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,229|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[3][6]  ( .D(value_b[6]), .E(N143), .CK(clk), .Q(\b[3][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,230|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[3][5]  ( .D(value_b[5]), .E(N143), .CK(clk), .Q(\b[3][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,231|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[3][4]  ( .D(value_b[4]), .E(N143), .CK(clk), .Q(\b[3][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,232|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[3][3]  ( .D(value_b[3]), .E(N143), .CK(clk), .Q(\b[3][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,233|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[3][2]  ( .D(value_b[2]), .E(N143), .CK(clk), .Q(\b[3][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,234|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[3][1]  ( .D(value_b[1]), .E(N143), .CK(clk), .Q(\b[3][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,235|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[3][0]  ( .D(value_b[0]), .E(N143), .CK(clk), .Q(\b[3][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,236|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[7][0]  ( .D(value_a[0]), .E(N139), .CK(clk), .Q(\a[7][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,237|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[7][1]  ( .D(value_a[1]), .E(N139), .CK(clk), .Q(\a[7][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,238|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[7][2]  ( .D(value_a[2]), .E(N139), .CK(clk), .Q(\a[7][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,239|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[7][3]  ( .D(value_a[3]), .E(N139), .CK(clk), .Q(\a[7][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,240|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[7][4]  ( .D(value_a[4]), .E(N139), .CK(clk), .Q(\a[7][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,241|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[7][5]  ( .D(value_a[5]), .E(N139), .CK(clk), .Q(\a[7][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,242|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[7][6]  ( .D(value_a[6]), .E(N139), .CK(clk), .Q(\a[7][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,243|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[7][7]  ( .D(value_a[7]), .E(N139), .CK(clk), .Q(\a[7][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,244|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[9][0]  ( .D(value_a[0]), .E(N137), .CK(clk), .Q(\a[9][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,245|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[9][1]  ( .D(value_a[1]), .E(N137), .CK(clk), .Q(\a[9][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,246|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[9][2]  ( .D(value_a[2]), .E(N137), .CK(clk), .Q(\a[9][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,247|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[9][3]  ( .D(value_a[3]), .E(N137), .CK(clk), .Q(\a[9][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,248|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[9][4]  ( .D(value_a[4]), .E(N137), .CK(clk), .Q(\a[9][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,249|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[9][5]  ( .D(value_a[5]), .E(N137), .CK(clk), .Q(\a[9][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,250|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[9][6]  ( .D(value_a[6]), .E(N137), .CK(clk), .Q(\a[9][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,251|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[9][7]  ( .D(value_a[7]), .E(N137), .CK(clk), .Q(\a[9][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,252|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[11][5]  ( .D(value_a[5]), .E(N135), .CK(clk), .Q(\a[11][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,253|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[11][6]  ( .D(value_a[6]), .E(N135), .CK(clk), .Q(\a[11][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,255|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[11][7]  ( .D(value_a[7]), .E(N135), .CK(clk), .Q(\a[11][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,257|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[11][0]  ( .D(value_b[0]), .E(N135), .CK(clk), .Q(\b[11][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,259|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[11][1]  ( .D(value_b[1]), .E(N135), .CK(clk), .Q(\b[11][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,261|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[11][2]  ( .D(value_b[2]), .E(N135), .CK(clk), .Q(\b[11][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,263|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[11][3]  ( .D(value_b[3]), .E(N135), .CK(clk), .Q(\b[11][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,265|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[11][4]  ( .D(value_b[4]), .E(N135), .CK(clk), .Q(\b[11][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,267|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[11][5]  ( .D(value_b[5]), .E(N135), .CK(clk), .Q(\b[11][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,269|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[11][6]  ( .D(value_b[6]), .E(N135), .CK(clk), .Q(\b[11][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,271|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[11][7]  ( .D(value_b[7]), .E(N135), .CK(clk), .Q(\b[11][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,273|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[11][4]  ( .D(value_a[4]), .E(N135), .CK(clk), .Q(\a[11][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,275|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[11][3]  ( .D(value_a[3]), .E(N135), .CK(clk), .Q(\a[11][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,277|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[11][2]  ( .D(value_a[2]), .E(N135), .CK(clk), .Q(\a[11][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,279|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[11][1]  ( .D(value_a[1]), .E(N135), .CK(clk), .Q(\a[11][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,281|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[11][0]  ( .D(value_a[0]), .E(N135), .CK(clk), .Q(\a[11][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,283|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[13][7]  ( .D(value_b[7]), .E(N132), .CK(clk), .Q(\b[13][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,285|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[13][6]  ( .D(value_b[6]), .E(N132), .CK(clk), .Q(\b[13][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,287|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[13][5]  ( .D(value_b[5]), .E(N132), .CK(clk), .Q(\b[13][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,289|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[13][4]  ( .D(value_b[4]), .E(N132), .CK(clk), .Q(\b[13][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,291|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[13][3]  ( .D(value_b[3]), .E(N132), .CK(clk), .Q(\b[13][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,293|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[13][2]  ( .D(value_b[2]), .E(N132), .CK(clk), .Q(\b[13][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,295|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[13][1]  ( .D(value_b[1]), .E(N132), .CK(clk), .Q(\b[13][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,297|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[13][0]  ( .D(value_b[0]), .E(N132), .CK(clk), .Q(\b[13][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,299|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[4][0]  ( .D(value_a[0]), .E(N142), .CK(clk), .Q(\a[4][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,301|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[4][1]  ( .D(value_a[1]), .E(N142), .CK(clk), .Q(\a[4][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,302|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[4][2]  ( .D(value_a[2]), .E(N142), .CK(clk), .Q(\a[4][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,303|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[4][3]  ( .D(value_a[3]), .E(N142), .CK(clk), .Q(\a[4][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,304|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[4][4]  ( .D(value_a[4]), .E(N142), .CK(clk), .Q(\a[4][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,305|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[4][5]  ( .D(value_a[5]), .E(N142), .CK(clk), .Q(\a[4][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,306|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[4][6]  ( .D(value_a[6]), .E(N142), .CK(clk), .Q(\a[4][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,307|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[4][7]  ( .D(value_a[7]), .E(N142), .CK(clk), .Q(\a[4][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,308|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[6][7]  ( .D(value_b[7]), .E(N140), .CK(clk), .Q(\b[6][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,309|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[6][6]  ( .D(value_b[6]), .E(N140), .CK(clk), .Q(\b[6][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,310|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[6][5]  ( .D(value_b[5]), .E(N140), .CK(clk), .Q(\b[6][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,311|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[6][4]  ( .D(value_b[4]), .E(N140), .CK(clk), .Q(\b[6][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,312|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[6][3]  ( .D(value_b[3]), .E(N140), .CK(clk), .Q(\b[6][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,313|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[6][2]  ( .D(value_b[2]), .E(N140), .CK(clk), .Q(\b[6][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,314|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[6][1]  ( .D(value_b[1]), .E(N140), .CK(clk), .Q(\b[6][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,315|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[6][0]  ( .D(value_b[0]), .E(N140), .CK(clk), .Q(\b[6][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,316|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[12][0]  ( .D(value_a[0]), .E(N133), .CK(clk), .Q(\a[12][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,317|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[12][1]  ( .D(value_a[1]), .E(N133), .CK(clk), .Q(\a[12][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,319|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[12][2]  ( .D(value_a[2]), .E(N133), .CK(clk), .Q(\a[12][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,321|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[12][3]  ( .D(value_a[3]), .E(N133), .CK(clk), .Q(\a[12][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,323|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[12][4]  ( .D(value_a[4]), .E(N133), .CK(clk), .Q(\a[12][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,325|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[12][5]  ( .D(value_a[5]), .E(N133), .CK(clk), .Q(\a[12][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,327|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[12][6]  ( .D(value_a[6]), .E(N133), .CK(clk), .Q(\a[12][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,329|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[12][7]  ( .D(value_a[7]), .E(N133), .CK(clk), .Q(\a[12][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,331|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[14][0]  ( .D(value_a[0]), .E(N131), .CK(clk), .Q(\a[14][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,333|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[14][1]  ( .D(value_a[1]), .E(N131), .CK(clk), .Q(\a[14][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,335|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[14][2]  ( .D(value_a[2]), .E(N131), .CK(clk), .Q(\a[14][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,337|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[14][3]  ( .D(value_a[3]), .E(N131), .CK(clk), .Q(\a[14][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,339|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[14][4]  ( .D(value_a[4]), .E(N131), .CK(clk), .Q(\a[14][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,341|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[14][5]  ( .D(value_a[5]), .E(N131), .CK(clk), .Q(\a[14][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,343|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[14][6]  ( .D(value_a[6]), .E(N131), .CK(clk), .Q(\a[14][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,345|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[14][7]  ( .D(value_a[7]), .E(N131), .CK(clk), .Q(\a[14][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,347|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[14][7]  ( .D(value_b[7]), .E(N131), .CK(clk), .Q(\b[14][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,349|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[14][6]  ( .D(value_b[6]), .E(N131), .CK(clk), .Q(\b[14][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,351|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[14][5]  ( .D(value_b[5]), .E(N131), .CK(clk), .Q(\b[14][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,353|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[14][4]  ( .D(value_b[4]), .E(N131), .CK(clk), .Q(\b[14][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,355|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[14][3]  ( .D(value_b[3]), .E(N131), .CK(clk), .Q(\b[14][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,357|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[14][2]  ( .D(value_b[2]), .E(N131), .CK(clk), .Q(\b[14][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,359|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[14][1]  ( .D(value_b[1]), .E(N131), .CK(clk), .Q(\b[14][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,361|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[14][0]  ( .D(value_b[0]), .E(N131), .CK(clk), .Q(\b[14][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,363|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[5][0]  ( .D(value_a[0]), .E(N141), .CK(clk), .Q(\a[5][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,365|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[5][1]  ( .D(value_a[1]), .E(N141), .CK(clk), .Q(\a[5][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,366|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[5][2]  ( .D(value_a[2]), .E(N141), .CK(clk), .Q(\a[5][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,367|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[5][3]  ( .D(value_a[3]), .E(N141), .CK(clk), .Q(\a[5][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,368|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[5][4]  ( .D(value_a[4]), .E(N141), .CK(clk), .Q(\a[5][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,369|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[5][5]  ( .D(value_a[5]), .E(N141), .CK(clk), .Q(\a[5][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,370|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[5][6]  ( .D(value_a[6]), .E(N141), .CK(clk), .Q(\a[5][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,371|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[5][7]  ( .D(value_a[7]), .E(N141), .CK(clk), .Q(\a[5][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,372|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[5][7]  ( .D(value_b[7]), .E(N141), .CK(clk), .Q(\b[5][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,373|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[5][6]  ( .D(value_b[6]), .E(N141), .CK(clk), .Q(\b[5][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,374|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[5][5]  ( .D(value_b[5]), .E(N141), .CK(clk), .Q(\b[5][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,375|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[5][4]  ( .D(value_b[4]), .E(N141), .CK(clk), .Q(\b[5][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,376|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[5][3]  ( .D(value_b[3]), .E(N141), .CK(clk), .Q(\b[5][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,377|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[5][2]  ( .D(value_b[2]), .E(N141), .CK(clk), .Q(\b[5][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,378|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[5][1]  ( .D(value_b[1]), .E(N141), .CK(clk), .Q(\b[5][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,379|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[5][0]  ( .D(value_b[0]), .E(N141), .CK(clk), .Q(\b[5][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,380|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[7][0]  ( .D(value_b[0]), .E(N139), .CK(clk), .Q(\b[7][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,381|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[7][1]  ( .D(value_b[1]), .E(N139), .CK(clk), .Q(\b[7][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,382|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[7][7]  ( .D(value_b[7]), .E(N139), .CK(clk), .Q(\b[7][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,383|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[7][6]  ( .D(value_b[6]), .E(N139), .CK(clk), .Q(\b[7][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,384|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[7][5]  ( .D(value_b[5]), .E(N139), .CK(clk), .Q(\b[7][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,385|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[7][4]  ( .D(value_b[4]), .E(N139), .CK(clk), .Q(\b[7][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,386|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[7][3]  ( .D(value_b[3]), .E(N139), .CK(clk), .Q(\b[7][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,387|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[7][2]  ( .D(value_b[2]), .E(N139), .CK(clk), .Q(\b[7][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,388|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[9][7]  ( .D(value_b[7]), .E(N137), .CK(clk), .Q(\b[9][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,389|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[9][6]  ( .D(value_b[6]), .E(N137), .CK(clk), .Q(\b[9][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,390|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[9][5]  ( .D(value_b[5]), .E(N137), .CK(clk), .Q(\b[9][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,391|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[9][4]  ( .D(value_b[4]), .E(N137), .CK(clk), .Q(\b[9][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,392|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[9][3]  ( .D(value_b[3]), .E(N137), .CK(clk), .Q(\b[9][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,393|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[9][2]  ( .D(value_b[2]), .E(N137), .CK(clk), .Q(\b[9][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,394|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[9][1]  ( .D(value_b[1]), .E(N137), .CK(clk), .Q(\b[9][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,395|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[9][0]  ( .D(value_b[0]), .E(N137), .CK(clk), .Q(\b[9][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,396|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[13][0]  ( .D(value_a[0]), .E(N132), .CK(clk), .Q(\a[13][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,397|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[13][1]  ( .D(value_a[1]), .E(N132), .CK(clk), .Q(\a[13][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,399|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[13][2]  ( .D(value_a[2]), .E(N132), .CK(clk), .Q(\a[13][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,401|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[13][3]  ( .D(value_a[3]), .E(N132), .CK(clk), .Q(\a[13][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,403|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[13][4]  ( .D(value_a[4]), .E(N132), .CK(clk), .Q(\a[13][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,405|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[13][5]  ( .D(value_a[5]), .E(N132), .CK(clk), .Q(\a[13][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,407|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[13][6]  ( .D(value_a[6]), .E(N132), .CK(clk), .Q(\a[13][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,409|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[13][7]  ( .D(value_a[7]), .E(N132), .CK(clk), .Q(\a[13][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,411|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[2][7]  ( .D(value_b[7]), .E(N144), .CK(clk), .Q(\b[2][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,413|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[2][6]  ( .D(value_b[6]), .E(N144), .CK(clk), .Q(\b[2][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,414|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[2][5]  ( .D(value_b[5]), .E(N144), .CK(clk), .Q(\b[2][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,415|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[2][4]  ( .D(value_b[4]), .E(N144), .CK(clk), .Q(\b[2][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,416|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[2][3]  ( .D(value_b[3]), .E(N144), .CK(clk), .Q(\b[2][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,417|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[2][2]  ( .D(value_b[2]), .E(N144), .CK(clk), .Q(\b[2][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,418|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[2][1]  ( .D(value_b[1]), .E(N144), .CK(clk), .Q(\b[2][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,419|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[2][0]  ( .D(value_b[0]), .E(N144), .CK(clk), .Q(\b[2][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,420|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[6][0]  ( .D(value_a[0]), .E(N140), .CK(clk), .Q(\a[6][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,421|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[6][1]  ( .D(value_a[1]), .E(N140), .CK(clk), .Q(\a[6][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,422|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[6][2]  ( .D(value_a[2]), .E(N140), .CK(clk), .Q(\a[6][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,423|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[6][3]  ( .D(value_a[3]), .E(N140), .CK(clk), .Q(\a[6][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,424|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[6][4]  ( .D(value_a[4]), .E(N140), .CK(clk), .Q(\a[6][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,425|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[6][5]  ( .D(value_a[5]), .E(N140), .CK(clk), .Q(\a[6][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,426|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[6][6]  ( .D(value_a[6]), .E(N140), .CK(clk), .Q(\a[6][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,427|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[6][7]  ( .D(value_a[7]), .E(N140), .CK(clk), .Q(\a[6][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,428|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[8][0]  ( .D(value_a[0]), .E(N138), .CK(clk), .Q(\a[8][0] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,429|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[8][1]  ( .D(value_a[1]), .E(N138), .CK(clk), .Q(\a[8][1] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,430|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[8][2]  ( .D(value_a[2]), .E(N138), .CK(clk), .Q(\a[8][2] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,431|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[8][3]  ( .D(value_a[3]), .E(N138), .CK(clk), .Q(\a[8][3] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,432|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[8][4]  ( .D(value_a[4]), .E(N138), .CK(clk), .Q(\a[8][4] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,433|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[8][5]  ( .D(value_a[5]), .E(N138), .CK(clk), .Q(\a[8][5] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,434|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[8][6]  ( .D(value_a[6]), .E(N138), .CK(clk), .Q(\a[8][6] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,435|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[8][7]  ( .D(value_a[7]), .E(N138), .CK(clk), .Q(\a[8][7] ) );
+                     |
+ncelab: *W,CUVWSP (./hw04_syn.v,436|21): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[10][0]  ( .D(value_a[0]), .E(N136), .CK(clk), .Q(\a[10][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,437|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[10][1]  ( .D(value_a[1]), .E(N136), .CK(clk), .Q(\a[10][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,439|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[10][2]  ( .D(value_a[2]), .E(N136), .CK(clk), .Q(\a[10][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,441|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[10][3]  ( .D(value_a[3]), .E(N136), .CK(clk), .Q(\a[10][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,443|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[10][4]  ( .D(value_a[4]), .E(N136), .CK(clk), .Q(\a[10][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,445|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[10][5]  ( .D(value_a[5]), .E(N136), .CK(clk), .Q(\a[10][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,447|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[10][6]  ( .D(value_a[6]), .E(N136), .CK(clk), .Q(\a[10][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,449|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[10][7]  ( .D(value_a[7]), .E(N136), .CK(clk), .Q(\a[10][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,451|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[10][7]  ( .D(value_b[7]), .E(N136), .CK(clk), .Q(\b[10][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,453|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[10][6]  ( .D(value_b[6]), .E(N136), .CK(clk), .Q(\b[10][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,455|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[10][5]  ( .D(value_b[5]), .E(N136), .CK(clk), .Q(\b[10][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,457|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[10][4]  ( .D(value_b[4]), .E(N136), .CK(clk), .Q(\b[10][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,459|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[10][3]  ( .D(value_b[3]), .E(N136), .CK(clk), .Q(\b[10][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,461|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[10][2]  ( .D(value_b[2]), .E(N136), .CK(clk), .Q(\b[10][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,463|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[10][1]  ( .D(value_b[1]), .E(N136), .CK(clk), .Q(\b[10][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,465|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[10][0]  ( .D(value_b[0]), .E(N136), .CK(clk), .Q(\b[10][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,467|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[15][0]  ( .D(value_a[0]), .E(N130), .CK(clk), .Q(\a[15][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,469|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[15][1]  ( .D(value_a[1]), .E(N130), .CK(clk), .Q(\a[15][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,471|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[15][2]  ( .D(value_a[2]), .E(N130), .CK(clk), .Q(\a[15][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,473|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[15][3]  ( .D(value_a[3]), .E(N130), .CK(clk), .Q(\a[15][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,475|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[15][4]  ( .D(value_a[4]), .E(N130), .CK(clk), .Q(\a[15][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,477|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[15][5]  ( .D(value_a[5]), .E(N130), .CK(clk), .Q(\a[15][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,479|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[15][6]  ( .D(value_a[6]), .E(N130), .CK(clk), .Q(\a[15][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,481|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \a_reg[15][7]  ( .D(value_a[7]), .E(N130), .CK(clk), .Q(\a[15][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,483|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[15][7]  ( .D(value_b[7]), .E(N130), .CK(clk), .Q(\b[15][7] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,485|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[15][6]  ( .D(value_b[6]), .E(N130), .CK(clk), .Q(\b[15][6] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,487|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[15][5]  ( .D(value_b[5]), .E(N130), .CK(clk), .Q(\b[15][5] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,489|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[15][4]  ( .D(value_b[4]), .E(N130), .CK(clk), .Q(\b[15][4] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,491|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[15][3]  ( .D(value_b[3]), .E(N130), .CK(clk), .Q(\b[15][3] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,493|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[15][2]  ( .D(value_b[2]), .E(N130), .CK(clk), .Q(\b[15][2] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,495|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[15][1]  ( .D(value_b[1]), .E(N130), .CK(clk), .Q(\b[15][1] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,497|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \b_reg[15][0]  ( .D(value_b[0]), .E(N130), .CK(clk), .Q(\b[15][0] )
+                      |
+ncelab: *W,CUVWSP (./hw04_syn.v,499|22): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \i_reg[7]  ( .D(i_next[7]), .E(N355), .CK(clk), .Q(i[7]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,501|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \i_reg[6]  ( .D(i_next[6]), .E(N355), .CK(clk), .Q(i[6]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,502|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \i_reg[4]  ( .D(i_next[4]), .E(N355), .CK(clk), .Q(i[4]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,503|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \i_reg[5]  ( .D(i_next[5]), .E(N355), .CK(clk), .Q(i[5]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,504|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \i_reg[1]  ( .D(i_next[1]), .E(N355), .CK(clk), .Q(i[1]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,505|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \i_reg[2]  ( .D(i_next[2]), .E(N355), .CK(clk), .Q(i[2]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,506|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \i_reg[3]  ( .D(i_next[3]), .E(N355), .CK(clk), .Q(i[3]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,507|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \i_reg[0]  ( .D(i_next[0]), .E(N355), .CK(clk), .Q(i[0]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,508|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \j_reg[4]  ( .D(j_next[4]), .E(n234), .CK(clk), .Q(j[4]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,509|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \j_reg[7]  ( .D(j_next[7]), .E(n234), .CK(clk), .Q(j[7]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,510|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \j_reg[3]  ( .D(j_next[3]), .E(n234), .CK(clk), .Q(N239) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,514|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \j_reg[5]  ( .D(j_next[5]), .E(n234), .CK(clk), .Q(j[5]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,515|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  EDFFX1 \j_reg[6]  ( .D(j_next[6]), .E(n234), .CK(clk), .Q(j[6]) );
+                  |
+ncelab: *W,CUVWSP (./hw04_syn.v,516|18): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,19637): QN
+
+  DFFRX1 en_a_reg ( .D(1'b1), .CK(clk), .RN(rst_n), .Q(en_a) );
+                |
+ncelab: *W,CUVWSP (./hw04_syn.v,524|16): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,18240): QN
+
+  DFFRX1 en_b_reg ( .D(1'b1), .CK(clk), .RN(rst_n), .Q(en_b) );
+                |
+ncelab: *W,CUVWSP (./hw04_syn.v,525|16): 1 output port was not connected:
+ncelab: (/theda21_2/CBDK_IC_Contest/cur/Verilog/tsmc13.v,18240): QN
+
+	Reading SDF file from location "hw04_syn.sdf"
+ncelab: *W,CUSFNF: The SDF file "hw04.sdf" not found..
+        $sdf_annotate("hw04.sdf",top);
+                    |
+ncelab: *W,CUSSTI (./hw04_t.v,35|20): This SDF System Task will be Ignored..
+	Annotating SDF timing data:
+		Compiled SDF file:     hw04_syn.sdf.X
+		Log file:              
+		Backannotation scope:  top.ctrl
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance top.ctrl.U624 of module XOR2X1 <./hw04_syn.sdf, line 1802>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance top.ctrl.U624 of module XOR2X1 <./hw04_syn.sdf, line 1803>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance top.ctrl.U624 of module XOR2X1 <./hw04_syn.sdf, line 1806>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance top.ctrl.U624 of module XOR2X1 <./hw04_syn.sdf, line 1807>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance top.ctrl.U622 of module XOR2X1 <./hw04_syn.sdf, line 1828>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance top.ctrl.U622 of module XOR2X1 <./hw04_syn.sdf, line 1829>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance top.ctrl.U622 of module XOR2X1 <./hw04_syn.sdf, line 1832>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance top.ctrl.U622 of module XOR2X1 <./hw04_syn.sdf, line 1833>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance top.ctrl.U620 of module XOR2X1 <./hw04_syn.sdf, line 1854>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance top.ctrl.U620 of module XOR2X1 <./hw04_syn.sdf, line 1855>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance top.ctrl.U620 of module XOR2X1 <./hw04_syn.sdf, line 1858>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance top.ctrl.U620 of module XOR2X1 <./hw04_syn.sdf, line 1859>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance top.ctrl.U618 of module XOR2X1 <./hw04_syn.sdf, line 1880>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance top.ctrl.U618 of module XOR2X1 <./hw04_syn.sdf, line 1881>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance top.ctrl.U618 of module XOR2X1 <./hw04_syn.sdf, line 1884>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance top.ctrl.U618 of module XOR2X1 <./hw04_syn.sdf, line 1885>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.U560 of module ADDFXL <./hw04_syn.sdf, line 2538>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.U560 of module ADDFXL <./hw04_syn.sdf, line 2539>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.U560 of module ADDFXL <./hw04_syn.sdf, line 2544>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.U560 of module ADDFXL <./hw04_syn.sdf, line 2545>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance top.ctrl.U560 of module ADDFXL <./hw04_syn.sdf, line 2548>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance top.ctrl.U560 of module ADDFXL <./hw04_syn.sdf, line 2549>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.U415 of module ADDFXL <./hw04_syn.sdf, line 4201>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.U415 of module ADDFXL <./hw04_syn.sdf, line 4202>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.U415 of module ADDFXL <./hw04_syn.sdf, line 4207>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.U415 of module ADDFXL <./hw04_syn.sdf, line 4208>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance top.ctrl.U415 of module ADDFXL <./hw04_syn.sdf, line 4211>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance top.ctrl.U415 of module ADDFXL <./hw04_syn.sdf, line 4212>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.U414 of module ADDFXL <./hw04_syn.sdf, line 4232>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.U414 of module ADDFXL <./hw04_syn.sdf, line 4233>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.U414 of module ADDFXL <./hw04_syn.sdf, line 4238>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.U414 of module ADDFXL <./hw04_syn.sdf, line 4239>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance top.ctrl.U414 of module ADDFXL <./hw04_syn.sdf, line 4242>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance top.ctrl.U414 of module ADDFXL <./hw04_syn.sdf, line 4243>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance top.ctrl.add_202.U2 of module XOR2X1 <./hw04_syn.sdf, line 11472>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance top.ctrl.add_202.U2 of module XOR2X1 <./hw04_syn.sdf, line 11473>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance top.ctrl.add_202.U2 of module XOR2X1 <./hw04_syn.sdf, line 11476>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance top.ctrl.add_202.U2 of module XOR2X1 <./hw04_syn.sdf, line 11477>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_202.U1_1_1 of module ADDHXL <./hw04_syn.sdf, line 11499>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_202.U1_1_1 of module ADDHXL <./hw04_syn.sdf, line 11500>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_202.U1_1_1 of module ADDHXL <./hw04_syn.sdf, line 11503>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_202.U1_1_1 of module ADDHXL <./hw04_syn.sdf, line 11504>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_202.U1_1_2 of module ADDHXL <./hw04_syn.sdf, line 11517>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_202.U1_1_2 of module ADDHXL <./hw04_syn.sdf, line 11518>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_202.U1_1_2 of module ADDHXL <./hw04_syn.sdf, line 11521>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_202.U1_1_2 of module ADDHXL <./hw04_syn.sdf, line 11522>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_202.U1_1_5 of module ADDHXL <./hw04_syn.sdf, line 11535>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_202.U1_1_5 of module ADDHXL <./hw04_syn.sdf, line 11536>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_202.U1_1_5 of module ADDHXL <./hw04_syn.sdf, line 11539>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_202.U1_1_5 of module ADDHXL <./hw04_syn.sdf, line 11540>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_202.U1_1_3 of module ADDHXL <./hw04_syn.sdf, line 11553>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_202.U1_1_3 of module ADDHXL <./hw04_syn.sdf, line 11554>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_202.U1_1_3 of module ADDHXL <./hw04_syn.sdf, line 11557>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_202.U1_1_3 of module ADDHXL <./hw04_syn.sdf, line 11558>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_202.U1_1_4 of module ADDHXL <./hw04_syn.sdf, line 11571>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_202.U1_1_4 of module ADDHXL <./hw04_syn.sdf, line 11572>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_202.U1_1_4 of module ADDHXL <./hw04_syn.sdf, line 11575>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_202.U1_1_4 of module ADDHXL <./hw04_syn.sdf, line 11576>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_202.U1_1_6 of module ADDHXL <./hw04_syn.sdf, line 11589>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_202.U1_1_6 of module ADDHXL <./hw04_syn.sdf, line 11590>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_202.U1_1_6 of module ADDHXL <./hw04_syn.sdf, line 11593>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_202.U1_1_6 of module ADDHXL <./hw04_syn.sdf, line 11594>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance top.ctrl.add_205.U2 of module XOR2X1 <./hw04_syn.sdf, line 11605>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance top.ctrl.add_205.U2 of module XOR2X1 <./hw04_syn.sdf, line 11606>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance top.ctrl.add_205.U2 of module XOR2X1 <./hw04_syn.sdf, line 11609>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance top.ctrl.add_205.U2 of module XOR2X1 <./hw04_syn.sdf, line 11610>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_205.U1_1_1 of module ADDHXL <./hw04_syn.sdf, line 11632>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_205.U1_1_1 of module ADDHXL <./hw04_syn.sdf, line 11633>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_205.U1_1_1 of module ADDHXL <./hw04_syn.sdf, line 11636>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_205.U1_1_1 of module ADDHXL <./hw04_syn.sdf, line 11637>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_205.U1_1_2 of module ADDHXL <./hw04_syn.sdf, line 11650>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_205.U1_1_2 of module ADDHXL <./hw04_syn.sdf, line 11651>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_205.U1_1_2 of module ADDHXL <./hw04_syn.sdf, line 11654>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_205.U1_1_2 of module ADDHXL <./hw04_syn.sdf, line 11655>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_205.U1_1_3 of module ADDHXL <./hw04_syn.sdf, line 11668>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_205.U1_1_3 of module ADDHXL <./hw04_syn.sdf, line 11669>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_205.U1_1_3 of module ADDHXL <./hw04_syn.sdf, line 11672>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_205.U1_1_3 of module ADDHXL <./hw04_syn.sdf, line 11673>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_205.U1_1_4 of module ADDHXL <./hw04_syn.sdf, line 11686>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_205.U1_1_4 of module ADDHXL <./hw04_syn.sdf, line 11687>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_205.U1_1_4 of module ADDHXL <./hw04_syn.sdf, line 11690>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_205.U1_1_4 of module ADDHXL <./hw04_syn.sdf, line 11691>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_205.U1_1_5 of module ADDHXL <./hw04_syn.sdf, line 11704>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_205.U1_1_5 of module ADDHXL <./hw04_syn.sdf, line 11705>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_205.U1_1_5 of module ADDHXL <./hw04_syn.sdf, line 11708>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_205.U1_1_5 of module ADDHXL <./hw04_syn.sdf, line 11709>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance top.ctrl.add_205.U1_1_6 of module ADDHXL <./hw04_syn.sdf, line 11722>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance top.ctrl.add_205.U1_1_6 of module ADDHXL <./hw04_syn.sdf, line 11723>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance top.ctrl.add_205.U1_1_6 of module ADDHXL <./hw04_syn.sdf, line 11726>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance top.ctrl.add_205.U1_1_6 of module ADDHXL <./hw04_syn.sdf, line 11727>.
+	Annotation completed with 0 Errors and 90 Warnings
+	SDF statistics: No. of Pathdelays = 1606  Annotated = 100.00% -- No. of Tchecks = 2774  Annotated = 99.71% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        1606	        1606	      100.00
+		      $width	         562	         562	      100.00
+		  $setuphold	        2212	        2204	       99.64
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.controller:v <0x33b02d04>
+			streams:   1, words:   155
+		worklib.sram_A_2048x8:v <0x1a03bc88>
+			streams:   4, words:  1711
+		worklib.sram_B_2048x8:v <0x0b9691e7>
+			streams:   4, words:  1808
+		worklib.sram_C_2048x8:v <0x6a5f7a82>
+			streams:   4, words:  1463
+		worklib.testbench:v <0x43c4509a>
+			streams:   3, words: 10008
+		worklib.top:v <0x6be8ced5>
+			streams:   1, words:   362
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                  638      32
+		UDPs:                     278       2
+		Primitives:              1770       7
+		Timing outputs:           907      17
+		Registers:                363      29
+		Scalar wires:            1205       -
+		Expanded wires:            16       2
+		Vectored wires:            50       -
+		Always blocks:             21       6
+		Initial blocks:             5       5
+		Cont. assignments:          4      14
+		Timing checks:           2774      77
+		Interconnect:            1774       -
+		Delayed tcheck signals:   834      55
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*Verdi3* Loading libsscore_ius141.so
+*Verdi3* : Enable Parallel Dumping.
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi3_J-2014.12-SP3, Linux, 07/05/2015
+(C) 1996 - 2015 by Synopsys, Inc.
+*Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi3* : Create FSDB file 'hw04_syn.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : End of traversing.
+output  0    143 152 135 179  82 104  87 125  97 118 109 125 117 156 145 197 
+output  1     89 106  39  94  50  65  26  43  44  60  46  54  49  71 147  98 
+output  2    111 145  38 126  55  63  55 132  38  67  20  82  29  38  38  84 
+output  3    194 105 241 130 193  53 163  63 164  66 185  26 204  96 230 121 
+output  4    115 178 101  45 102 168  86  36 158 142 115 114 118 148 102  75 
+output  5     72  89  97  76  68  69  83  58 115 103 110  77 174 181 162  91 
+output  6    167 118  68 103 113  99  74  60 111 124  11  90 234 198  97 146 
+output  7    165 252  78 170  26 106  17  66  68 126  24 125 166 196  74 135 
+output  8    123 109 159 170 134 148 184 183 154 163 189 213  63  65  68  64 
+output  9     43 100 146  59   9  98 203 138  44 204 221 141  32  86 146 103 
+output 10     49 107 140  52 110 112 124  46 117 204 231  69 102 126 138  64 
+output 11    141 230 162 110 104 154 162  94  79 119 116  63  91 130 135  48 
+output 12    179 191 166 135 103 167 147 144 172 239 168 195  93  93 110  63 
+output 13    122 149 209 211  65  32  63  45  39  45  84  87 126 132 170 159 
+output 14     84 141 111  90 112 192 101  85 109 172 117  89  72  65  31  66 
+output 15    115 234 229 114 113 223 245 135  65  83 135 105  69 156 148  51 
+output 16     91  80 158 195 110  88 148 224  82  61  94 148  55  43  68  99 
+output 17    100  24  70  98  80  22  36  63  94  36  40  91 100  62  21 117 
+output 18     45 217 197  78  81 243 210  81  76 168 156  72  63  87 117  48 
+output 19    154 243 160 101 119 188 151 114  47  98 106  87  65 144 119  78 
+output 20    102  46  56  65 156  80  59  76 208  96 191 193  96  79  72  62 
+output 21     97 161  88  63  64 163  58  63 108  98  81  54 113 128  82  66 
+output 22     98 206 224 193  36  40  50  38   8 130 133 108  66 173 196 154 
+output 23    131 149 242  78  57 121 168  56  97 148 175  55  81 131 192  71 
+output 24    110  38  22  80 185  35  16  82 170  76  54 120 227  53  28 126 
+output 25    129 161 125  92 120 144 120 105 139 170 142 129  59  90  70  68 
+output 26     99  73  80  83 122 114 100  89 136  84  83 100 161 114 133  98 
+output 27    100  96  89 106 149 168 112 130  92 110  63  63  90 100  71  85 
+output 28     69  51  49  72 194 155 216 249 157 127 157 208 109  52 131 146 
+output 29     66  83 143  86  73 118 159  79  67  58 133 113  84 109 179 110 
+output 30    187 151 147  46 112 118 103  36 143  63 108  26 107  63  95   9 
+output 31    199 157 137  76 111 115  75  50 192 183 135  91 215 214  97  50 
+output 32     94  80 126  88  92 101 133 110 169 152 179 141 160 164 156 110 
+output 33     84  46  97 109 133  68  97 116  71  28  83  88  92  69  43  76 
+output 34     69  57 140 147 127 114 220 223 144 132 223 234  57  45 106 113 
+output 35     74 171  95 146  70 106  94 147  59 119  34  71  97 182 126 206 
+output 36    152 133 214 155 148 123 210 155 111 154 178  77  90 110 128  63 
+output 37     92 150  82  86 136 229 142 140  91 144  92  85  73 179  81 138 
+output 38     81  35  87  66 132  77 139  95 112  70 130  99 158 116 248 217 
+output 39     65  80  68 111  76  76 102 132 106 115 147 204 102  72 154 130 
+output 40     40  78  91  51  59 103 118  53  94 200 235 125  29 143 159 142 
+output 41     57  92  37 137 120 128  77 181 127  82  50  70  71 108   6 142 
+output 42     89  83 125 103 186 182 188 201 163 181 176 192 153 148 223 175 
+output 43    125 101 147  99 100  50  98 110  96  74 109  82  73 122 151  50 
+output 44    122 112  64  40  70  75  32   8 143 151 119  69 175 169 110  65 
+output 45    156 184 153 230  75  99  70 155 116  85  89 141 130 158 112 215 
+output 46     55  64 121  81  76  97 112 113 100  87 100  71  91  91 151  97 
+output 47    100  73  47  43 101  29  27 105 170 101  47 113 225 150 105 139 
+output 48    122 178 151 170 152 106 136 179 121 138 133 144 116  77 115 127 
+output 49    133  76 145 121 186  54 126 121 206  44 117 209  73  36  64  33 
+output 50     84  83  59 115  83 134  33 143 117  83  98 150 122 223  50 233 
+output 51    174  90  87 123  74  33  53  34 210  96 164 122  76  29  69  20 
+output 52    114  64 122  98 136  35  73 130 117  66 159 116 128  38 112 137 
+output 53    113 140 124  71 150 182 104  92  91 141 127  50  42  71  50  22 
+output 54    113 109 109 110  94 100 110 104 116 116 164 143 129  60 173 143 
+output 55    182 241 191 162  98  88  95  74 144 159 133 112 130 152 100 102 
+output 56    171 114 117  55  69  28  63  22 152  82 100  51 118  88  98  36 
+output 57    152 122  91 145 104 100  68 101  64  48  74 111 152 112 171 156 
+output 58    184  96 184 136 215  56  70 148 222 116 167 137  51   9  75  69 
+output 59    108 105 122 134 151 101  91 152 190 128 102 255  94  63  80 107 
+output 60     87 179 149  85  84 172 116  84  35  91  61  41 109 174 181  91 
+output 61    228 151 129 114 205 123 126 123 148 112  98 110 110  68  59  53 
+output 62     92 124  80 140 176 242 214 234 128 175 156 155  86 123 106 115 
+output 63     96  85 159 117  75 104 129  70  92  95  38  90  90  60  54  95 
+output 64    144 137 245 146  86  77 146  77 152 107 231 109  38  12  48   9 
+output 65     60  20  46  75  33  57 123 159 105  70 201 220  68  57 118 119 
+output 66    148 134 170 118 214 189 190 126 130 108 148  46 168 164 187 145 
+output 67    167 138 120 219 152 139  96 209 103  87  58 155 115 101  78 151 
+output 68    212 210 205 150  35  43  38  23 189 111 138 138  90 209 159  78 
+output 69    109 164  87 154 153 169 106 204  42  36  26  44 166 158 106 188 
+output 70     81 206 192 109  81 175 154 137  79 210 199  90  79 146 205  46 
+output 71    126  51  50  40 163 135  74  55 151  49  51  54 127 122  45  44 
+output 72     40 111  67  76  36 117  99  66  94 189 162 157  42  99 114  55 
+output 73    163  90 110 124  63  39 114  44 145 121 158  89 192 113 172  79 
+output 74    138  55 136 184 116  75 100 152 152 131 111 171 135 119 125 131 
+output 75    228 190 202 203 119 137 107 118 184 126 168 173 232 218 212 238 
+output 76    122 158 115  79 154 112 128  56 159  85 117  55  23  21  22   8 
+output 77     76  88  55 116 130 116  55 158 154 130  96 251 142 128  84 224 
+output 78    144 162 167  72 251 224 246 111 170 179 188  74 195 133 165 110 
+output 79    164 186  96  71 174 171 111  71 216 209 129  73 158 149 105  66 
+output 80    162  95 161 184  45   9  75 112 179 146 140  98  38  11  59  90 
+output 81     89 121  86  88  72  92  77  34 171 206 161  85 191 219 145 122 
+output 82    110  90  94  36 224 211 146  83  83  53  91  26  79  86  75  39 
+output 83    164 103  92 101 161  83  64 120 145  60  71 118 218  68  97 137 
+output 84     94 132 129  89 135 125 119  94 189 166 147 149 124 131 131  93 
+output 85     45  52  37  69 140 105 107 151 137 130 160 102 151 127 154 164 
+output 86    123  27  27 129  32  16   6  28 165  40  68 205 220 106  39 202 
+output 87     38 100  98 123  62 139 132 153  72 212 181 193 138 217 233 236 
+output 88     87 103 114  92  87 121  67  26  79  94 106  90  90 143 105  90 
+output 89    201 150 206 208 117  69 115 101 171 117 204 209 137  95 187 215 
+output 90     60  62  74  76 164 157 128 193 133 150  66 173 110 128  51 146 
+output 91    107  66 116  86 173 225 186 132 202 225 204 143 162 157 190 106 
+output 92    148  86  84  96 172 174 195 194 219 189 191 184 147 154 103  94 
+output 93    119  54  67  62 157 106 136 142 122  77  91  92 171  79  99 105 
+output 94     38  63  28 117 198 177  74 119 126  83  39  87  80  82  39 132 
+output 95    133 167 158 176 103 166  87 141 152 123 215 167 109  70 196 101 
+output 96    153  56 125 170 101  66  66 123  81  26  62  92  81  59  57 104 
+output 97    127  92 177 149  64  44 112 125  92  44 168 180  58  66 124 166 
+output 98     64 239 185 227  32 121 109 127  62 142  96 116  40 108  59  83 
+output 99    161 127 127 161 122 122 164 158  51  45  45  36  97  78  64  68 
+output100     64  52  56  66 109 131  79  69  80  97  48  85 140 162  93 198 
+output101    165 102 178 114 232 187 253 157 154 124 124 133 111 155 156  47 
+output102    107  97  49  84 129  72 137 149 199 132 204 235 214 170 175 224 
+output103    160  60 118 119 197 141 161  79 232 124 174 139 130  73  98  66 
+output104     68 197 114 191  98 226 183 237  42  61  85  73  54 157 152 198 
+output105    109 105  54 133  96 132  96 181  58  84  53  97 128 150  93 194 
+output106     94  60  78  59 142  96 102  43  63  48  44  41  69  34  68  68 
+output107    164  63 121  95 252 153 183  97 138  75  77  67  92  65  71  34 
+output108    210 154 198 211 183 125 155 177 147  82 174 212 136  85 125 170 
+output109    145 155 182 214 135 124  89 139 142 214 164 204 172 172 129 186 
+output110     53  91  29   8 178 179 187  71  65 127 131  41 168 188 158  61 
+output111    145 198 131 133 198 193 148 187  27 115  36  11  86 232  96  62 
+output112     70  99 148 148  96 127 207 198  56  80 108 110  26  32  52  51 
+output113     99 142 137 142  27 148 122 144  41 141  72 122  50  90  58  70 
+output114    183 136 249 214  88  60  83 127  90  71 130 108 163  62  89 154 
+output115    128  77  91  93  84  34  64  60  98  87  92  98 115  34 155  42 
+output116    172  75 198  63 154  87 197  84 170  67 174  78 144 101 209  65 
+output117     72 136 107 174 110 140  61 194  67 130  90 188  96 139  80 183 
+output118     87  58  49  83 180 188 103 180 193 190  86 153 120 131  65 112 
+output119     70 136 157 178  56 134 141 192  51 106 104 160  49 129 120 143 
+output120     65  90  27  73 131 179  66 197  84 118  42 125  82 109  42 130 
+output121    116  99  64  77 200 107 144 133 157  90 153 119 137  44 135 133 
+output122    102 121 120 135  30  50  15  50 111 139  84 155 151 141 132 175 
+output123     66 147  49  70  93 138  57  81 135 158  92 100  69 114  50 110 
+output124     71 110   8  46 119 156  52 140  89  84  82 128  55  73  34  68 
+output125    108  26  49  89  29   8 111  79 107  10 108 122  53  14 116  96 
+output126    148 146 125 140  16  46  26 122 150 166 155 128  28 136 124 240 
+output127     83 102  44  89  24 160  61  70  50  66  32  64  55  93  25  43 
+Simulation complete via $finish(1) at time 58626 NS + 0
+./hw04_t.v:70     $finish;
+ncsim> exit
+TOOL:	ncverilog	14.10-s005: Exiting on May 02, 2019 at 12:40:39 CST  (total: 00:00:02)

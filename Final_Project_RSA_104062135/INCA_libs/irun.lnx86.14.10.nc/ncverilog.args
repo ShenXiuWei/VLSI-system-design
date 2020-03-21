@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
++nctimescale+1ns/1ps
+RSA_t_verify.v
+top.v
+RSA_nonsyn_verify.v
+RSA.v
++access+r

@@ -1,0 +1,31 @@
+ncverilog: 14.10-s005: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncverilog	14.10-s005: Started on Mar 14, 2019 at 23:17:05 CST
+ncverilog
+	hw01_t.v
+	hw01.v
+	+access+r
+Recompiling... reason: file './hw01_t.v' is newer than expected.
+	expected: Tue Mar 12 18:21:44 2019
+	actual:   Tue Mar 12 18:24:25 2019
+file: hw01_t.v
+	module worklib.stimulus:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.stimulus:v <0x7ff23281>
+			streams:  12, words: 12050
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              2       2
+		Registers:           20      20
+		Scalar wires:         5       -
+		Vectored wires:       3       -
+		Always blocks:        4       4
+		Initial blocks:       2       2
+		Pseudo assignments:   5       5
+	Writing initial simulation snapshot: worklib.stimulus:v
+TOOL:	ncverilog	14.10-s005: Exiting on Mar 14, 2019 at 23:31:57 CST  (total: 00:14:52)

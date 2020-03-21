@@ -1,0 +1,76 @@
+csi-ncsim - CSI: Command line:
+ncsim
+    -f /users/student/topic/zscaxd5651/VLSI_system/HW1/INCA_libs/irun.lnx86.14.10.nc/ic56.cs.nthu.edu.tw_5991/ncsim.args
+        +access+r
+        -MESSAGES
+        +EMGRLOG ncverilog.log
+        -XLSTIME 1550751893
+        -XLKEEP
+        -XLMODE ./INCA_libs/irun.lnx86.14.10.nc
+        -RUNMODE
+        -CDSLIB ./INCA_libs/irun.lnx86.14.10.nc/cds.lib
+        -HDLVAR ./INCA_libs/irun.lnx86.14.10.nc/hdl.var
+        -XLNAME ncverilog
+        -XLVERSION TOOL:	ncverilog	14.10-s005
+        -XLNAME ./INCA_libs/irun.lnx86.14.10.nc/ic56.cs.nthu.edu.tw_5991
+    -CHECK_VERSION TOOL:	ncverilog	14.10-s005
+    -LOG_FD 8
+    -LOG_FD_NAME ncverilog.log
+    -cmdnopsim
+    -runlock /users/student/topic/zscaxd5651/VLSI_system/HW1/INCA_libs/irun.lnx86.14.10.nc/.nclib.lock
+    -runscratch /users/student/topic/zscaxd5651/VLSI_system/HW1/INCA_libs/irun.lnx86.14.10.nc/ic56.cs.nthu.edu.tw_5991
+
+csi-ncsim - CSI: *F,INTERR: INTERNAL EXCEPTION
+Observed simulation time : 2200535 NS + 0
+-----------------------------------------------------------------
+The tool has encountered an unexpected condition and must exit.
+Contact Cadence Design Systems customer support about this
+problem and provide enough information to help us reproduce it,
+including the logfile that contains this error message.
+  TOOL:	ncsim	14.10-s005
+  HOSTNAME: ic56.cs.nthu.edu.tw
+  OPERATING SYSTEM: Linux 2.6.32-696.1.1.el6.x86_64 #1 SMP Tue Apr 11 17:13:24 UTC 2017 x86_64
+  MESSAGE: sv_seghandler - trapno -1 addr((nil))
+-----------------------------------------------------------------
+
+csi-ncsim - CSI: Cadence Support Investigation, recording details
+Simulator Snap Shot: gd (SSS_GD) in snapshot worklib.stimulus:v (SSS)
+User Code in function: <unavailable> offset 951949 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: __kernel_rt_sigreturn offset 0
+User Code in function: ndpBIMT_Flush offset 72 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: ndpBIMT_Join offset 23 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: <unavailable> offset 1364023 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: pliAppSectionBegin offset 108 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: pliAppRootSectionBegin offset 375 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: <unavailable> offset 1342666 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: <unavailable> offset 1638917 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: exit offset 223
+User Code in function: __kernel_sigreturn offset 0
+User Code in function: NDPpthread_join offset 36 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: <unavailable> offset 957315 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: ndpBIMT_Join offset 29 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: <unavailable> offset 1341990 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: <unavailable> offset 1095322 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+User Code in function: <unavailable> offset 1097804 in /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+Internal Code in function: Tcl_Exit offset 25
+Internal Code in function: TclInvokeStringCommand offset 115
+Internal Code in function: Tcl_EvalEx offset 870
+Internal Code in function: Tcl_Eval offset 88
+Verilog Syntax Tree: module declaration (VST_D_MODULE) in module worklib.stimulus:v (VST)
+	File: /users/student/topic/zscaxd5651/VLSI_system/HW1/hw01_t.v, line 1, position 14
+	Scope: stimulus
+	Decompile: stimulus#(cyc,delay)
+	Source  : module stimulus;
+	Position:               ^
+Verilog Syntax Tree: system task enable statement (VST_S_SYSTEM_TASK_ENABLE) in module worklib.stimulus:v (VST)
+	File: /users/student/topic/zscaxd5651/VLSI_system/HW1/hw01_t.v, line 25, position 16
+	Scope: stimulus
+	Decompile: $fsdbDumpvars
+	Source  :     $fsdbDumpvars;
+	Position:                 ^
+Simulator Snap Shot: pstatea (SSS_PSTATEA) in snapshot worklib.stimulus:v (SSS)
+Simulator Snap Shot: stream cod (SSS_COD_STREAM) in snapshot worklib.stimulus:v (SSS)
+Internal Code in function: ncmain offset 43
+User Code in function: main offset 27
+User Code in function: __libc_start_main offset 230
+csi-ncsim - CSI: investigation complete took 0.007 secs, send this file to Cadence Support

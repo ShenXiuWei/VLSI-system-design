@@ -1,0 +1,45 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 \
+           {/users/student/topic/zscaxd5651/VLSI_System_Design/HW3/hw03b.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top"
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top/clk} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 )} 
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 18019308.682149 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 18014574.234255 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 17491417.742038 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 17503253.861772 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 17507988.309665 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 17505621.085718 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 17505621.085718 -snap {("G1" 1)}
+wvCloseFile -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvTpfCloseForm -win $_nWave1
+wvGetSignalClose -win $_nWave1
+wvGetSignalClose -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 \
+           {/users/student/topic/zscaxd5651/VLSI_System_Design/HW3/hw03c.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top"
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top/clk} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 )} 
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvGetSignalClose -win $_nWave1
+wvExit

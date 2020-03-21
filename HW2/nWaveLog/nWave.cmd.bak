@@ -1,0 +1,148 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 \
+           {/users/student/topic/zscaxd5651/VLSI_system/HW2/gcd_syn.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/stimulus"
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/stimulus/a\[7:0\]} \
+{/stimulus/b\[7:0\]} \
+{/stimulus/done} \
+{/stimulus/error} \
+{/stimulus/y\[7:0\]} \
+{/stimulus/start} \
+{/stimulus/clk} \
+{/stimulus/rst_n} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvResizeWindow -win $_nWave1 0 29 1920 1001
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 989234.753412 -snap {("G2" 0)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 410505.972539 412621.982707
+wvSetCursor -win $_nWave1 410645.489693 -snap {("G1" 6)}
+wvSetCursor -win $_nWave1 401097.676185 -snap {("G1" 6)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 398773.002204 400065.371630
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 321060.788056 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 321826.193662 -snap {("G2" 0)}
+wvZoom -win $_nWave1 310919.163784 406977.567271
+wvZoom -win $_nWave1 342031.197302 358031.671682
+wvZoom -win $_nWave1 347361.604036 353404.582503
+wvZoom -win $_nWave1 350447.752091 351227.153015
+wvZoom -win $_nWave1 350633.474000 350946.767026
+wvZoom -win $_nWave1 350633.474000 350759.950884
+wvZoom -win $_nWave1 350633.474000 350685.630170
+wvZoom -win $_nWave1 350654.589858 350676.097868
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 365033.938521 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 364626.318814 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 367072.037054 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 367683.466614 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 374613.001626 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 372371.093240 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 370129.184854 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 368702.515880 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 373186.332653 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 373186.332653 -snap {("G1" 3)}
+wvZoom -win $_nWave1 347098.671430 408853.056981
+wvZoom -win $_nWave1 374850.642265 383815.564632
+wvSetCursor -win $_nWave1 379159.404837 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 379371.991197 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 379387.546297 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 378900.153178 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 377961.662173 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 377479.454087 -snap {("G1" 4)}
+wvSetCursor -win $_nWave1 10609.612422 -snap {("G1" 4)}
+wvSetCursor -win $_nWave1 12766.586224 -snap {("G1" 3)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1

@@ -1,0 +1,428 @@
+ncverilog: 14.10-s005: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncverilog	14.10-s005: Started on Jun 20, 2019 at 08:38:34 CST
+ncverilog
+	hw02_t.v
+	hw02.v
+	+access+r
+file: hw02_t.v
+	module worklib.stimulus:v
+		errors: 0, warnings: 0
+file: hw02.v
+	module worklib.GCD:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.GCD:v <0x3951f81f>
+			streams:   9, words:  6678
+		worklib.stimulus:v <0x3a8bd05c>
+			streams:  13, words: 14715
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              2       2
+		Registers:           25      25
+		Scalar wires:         5       -
+		Vectored wires:       3       -
+		Always blocks:        6       6
+		Initial blocks:       2       2
+		Pseudo assignments:   5       5
+	Writing initial simulation snapshot: worklib.stimulus:v
+Loading snapshot worklib.stimulus:v .................... Done
+*Verdi3* Loading libsscore_ius141.so
+*Verdi3* : Enable Parallel Dumping.
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi3_L-2016.06-SP1-1, Linux, 09/27/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi3* : Create FSDB file 'hw02.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : End of traversing.
+                   0 CLK=1 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=x
+                   5 CLK=0 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=x
+                  10 CLK=1 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  11 CLK=1 RST_N=0 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  15 CLK=0 RST_N=0 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  20 CLK=1 RST_N=0 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  25 CLK=0 RST_N=0 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  30 CLK=1 RST_N=0 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  35 CLK=0 RST_N=0 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  40 CLK=1 RST_N=0 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  45 CLK=0 RST_N=0 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  50 CLK=1 RST_N=0 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  51 CLK=1 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  55 CLK=0 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  60 CLK=1 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  65 CLK=0 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  70 CLK=1 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  75 CLK=0 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  80 CLK=1 RST_N=1 START=0 A=  x B=  x | DONE=0 Y=  x ERROR=0
+                  81 CLK=1 RST_N=1 START=1 A=195 B=187 | DONE=0 Y=  x ERROR=0
+                  85 CLK=0 RST_N=1 START=1 A=195 B=187 | DONE=0 Y=  x ERROR=0
+                  90 CLK=1 RST_N=1 START=1 A=195 B=187 | DONE=0 Y=  x ERROR=0
+                  91 CLK=1 RST_N=1 START=1 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                  95 CLK=0 RST_N=1 START=1 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 100 CLK=1 RST_N=1 START=1 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 101 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 105 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 110 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 115 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 120 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 125 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 130 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 135 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 140 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 145 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 150 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 155 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 160 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 165 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 170 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 175 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 180 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 185 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 190 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 195 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 200 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 205 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 210 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 215 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 220 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 225 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 230 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 235 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 240 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 245 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 250 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 255 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 260 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 265 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 270 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 275 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 280 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 285 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 290 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 295 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 300 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 305 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 310 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 315 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 320 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 325 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 330 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 335 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 340 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 345 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 350 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 355 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 360 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=1 Y=  7 ERROR=0
+                 365 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=1 Y=  7 ERROR=0
+                 370 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=1 Y=208 ERROR=0
+                 375 CLK=0 RST_N=1 START=0 A= 80 B=128 | DONE=1 Y=208 ERROR=0
+                 380 CLK=1 RST_N=1 START=0 A= 80 B=128 | DONE=0 Y=  x ERROR=0
+                 381 CLK=1 RST_N=1 START=1 A= 30 B=187 | DONE=0 Y=  x ERROR=0
+                 385 CLK=0 RST_N=1 START=1 A= 30 B=187 | DONE=0 Y=  x ERROR=0
+                 390 CLK=1 RST_N=1 START=1 A= 30 B=187 | DONE=0 Y=  x ERROR=0
+                 391 CLK=1 RST_N=1 START=1 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 395 CLK=0 RST_N=1 START=1 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 400 CLK=1 RST_N=1 START=1 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 401 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 405 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 410 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 415 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 420 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 425 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 430 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 435 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 440 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 445 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 450 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 455 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 460 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 465 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 470 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 475 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 480 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 485 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 490 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 495 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 500 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 505 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 510 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 515 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 520 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 525 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 530 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 535 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 540 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 545 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 550 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 555 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 560 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 565 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 570 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 575 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 580 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 585 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 590 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 595 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 600 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 605 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 610 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 615 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 620 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 625 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 630 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 635 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 640 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 645 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 650 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 655 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 660 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 665 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 670 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 675 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 680 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 685 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 690 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 695 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 700 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 705 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 710 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 715 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 720 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 725 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 730 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 735 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 740 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 745 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 750 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 755 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 760 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 765 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 770 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 775 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 780 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 785 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 790 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 795 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 800 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 805 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 810 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 815 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 820 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 825 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 830 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 835 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 840 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 845 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 850 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 855 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 860 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 865 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 870 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 875 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 880 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 885 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 890 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 895 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 900 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 905 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 910 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 915 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 920 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 925 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 930 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 935 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 940 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 945 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 950 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 955 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 960 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 965 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 970 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 975 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 980 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 985 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 990 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                 995 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                1000 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                1005 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                1010 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                1015 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                1020 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                1025 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                1030 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=1 Y=  0 ERROR=0
+                1035 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=1 Y=  0 ERROR=0
+                1040 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=1 Y=  1 ERROR=0
+                1045 CLK=0 RST_N=1 START=0 A= 97 B=128 | DONE=1 Y=  1 ERROR=0
+                1050 CLK=1 RST_N=1 START=0 A= 97 B=128 | DONE=0 Y=  x ERROR=0
+                1051 CLK=1 RST_N=1 START=1 A=195 B= 30 | DONE=0 Y=  x ERROR=0
+                1055 CLK=0 RST_N=1 START=1 A=195 B= 30 | DONE=0 Y=  x ERROR=0
+                1060 CLK=1 RST_N=1 START=1 A=195 B= 30 | DONE=0 Y=  x ERROR=0
+                1061 CLK=1 RST_N=1 START=1 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1065 CLK=0 RST_N=1 START=1 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1070 CLK=1 RST_N=1 START=1 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1071 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1075 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1080 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1085 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1090 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1095 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1100 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1105 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1110 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1115 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1120 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1125 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1130 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1135 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1140 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1145 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1150 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1155 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1160 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1165 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1170 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1175 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1180 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1185 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1190 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1195 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1200 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1205 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1210 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1215 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1220 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1225 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1230 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1235 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1240 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1245 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1250 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1255 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1260 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1265 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1270 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1275 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1280 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1285 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1290 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1295 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1300 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1305 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1310 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1315 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1320 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1325 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1330 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1335 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1340 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1345 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1350 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1355 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1360 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1365 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1370 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1375 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1380 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1385 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1390 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1395 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1400 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1405 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1410 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1415 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1420 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1425 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1430 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1435 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1440 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1445 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1450 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1455 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1460 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1465 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1470 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1475 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1480 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1485 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1490 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1495 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1500 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1505 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1510 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1515 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1520 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1525 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1530 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1535 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1540 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1545 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1550 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1555 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1560 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1565 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1570 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1575 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1580 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1585 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1590 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1595 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1600 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=1 Y=  0 ERROR=0
+                1605 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=1 Y=  0 ERROR=0
+                1610 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=1 Y=  1 ERROR=0
+                1615 CLK=0 RST_N=1 START=0 A= 80 B= 97 | DONE=1 Y=  1 ERROR=0
+                1620 CLK=1 RST_N=1 START=0 A= 80 B= 97 | DONE=0 Y=  x ERROR=0
+                1621 CLK=1 RST_N=1 START=1 A=195 B=  0 | DONE=0 Y=  x ERROR=0
+                1625 CLK=0 RST_N=1 START=1 A=195 B=  0 | DONE=0 Y=  x ERROR=0
+                1630 CLK=1 RST_N=1 START=1 A=195 B=  0 | DONE=0 Y=  x ERROR=0
+                1631 CLK=1 RST_N=1 START=1 A= 80 B=  0 | DONE=0 Y=  x ERROR=0
+                1635 CLK=0 RST_N=1 START=1 A= 80 B=  0 | DONE=0 Y=  x ERROR=0
+                1640 CLK=1 RST_N=1 START=1 A= 80 B=  0 | DONE=0 Y=  x ERROR=0
+                1641 CLK=1 RST_N=1 START=0 A= 80 B=  0 | DONE=0 Y=  x ERROR=0
+                1645 CLK=0 RST_N=1 START=0 A= 80 B=  0 | DONE=0 Y=  x ERROR=0
+                1650 CLK=1 RST_N=1 START=0 A= 80 B=  0 | DONE=0 Y=  x ERROR=1
+                1655 CLK=0 RST_N=1 START=0 A= 80 B=  0 | DONE=0 Y=  x ERROR=1
+                1660 CLK=1 RST_N=1 START=0 A= 80 B=  0 | DONE=1 Y=  x ERROR=1
+                1665 CLK=0 RST_N=1 START=0 A= 80 B=  0 | DONE=1 Y=  x ERROR=1
+                1670 CLK=1 RST_N=1 START=0 A= 80 B=  0 | DONE=1 Y=  x ERROR=1
+                1675 CLK=0 RST_N=1 START=0 A= 80 B=  0 | DONE=1 Y=  x ERROR=1
+                1680 CLK=1 RST_N=1 START=0 A= 80 B=  0 | DONE=0 Y=  x ERROR=1
+                1681 CLK=1 RST_N=1 START=1 A=  0 B=187 | DONE=0 Y=  x ERROR=1
+                1685 CLK=0 RST_N=1 START=1 A=  0 B=187 | DONE=0 Y=  x ERROR=1
+                1690 CLK=1 RST_N=1 START=1 A=  0 B=187 | DONE=0 Y=  x ERROR=0
+                1691 CLK=1 RST_N=1 START=1 A=  0 B=128 | DONE=0 Y=  x ERROR=0
+                1695 CLK=0 RST_N=1 START=1 A=  0 B=128 | DONE=0 Y=  x ERROR=0
+                1700 CLK=1 RST_N=1 START=1 A=  0 B=128 | DONE=0 Y=  x ERROR=0
+                1701 CLK=1 RST_N=1 START=0 A=  0 B=128 | DONE=0 Y=  x ERROR=0
+                1705 CLK=0 RST_N=1 START=0 A=  0 B=128 | DONE=0 Y=  x ERROR=0
+                1710 CLK=1 RST_N=1 START=0 A=  0 B=128 | DONE=0 Y=  x ERROR=1
+                1715 CLK=0 RST_N=1 START=0 A=  0 B=128 | DONE=0 Y=  x ERROR=1
+                1720 CLK=1 RST_N=1 START=0 A=  0 B=128 | DONE=1 Y=  x ERROR=1
+                1725 CLK=0 RST_N=1 START=0 A=  0 B=128 | DONE=1 Y=  x ERROR=1
+                1730 CLK=1 RST_N=1 START=0 A=  0 B=128 | DONE=1 Y=  x ERROR=1
+                1735 CLK=0 RST_N=1 START=0 A=  0 B=128 | DONE=1 Y=  x ERROR=1
+                1740 CLK=1 RST_N=1 START=0 A=  0 B=128 | DONE=0 Y=  x ERROR=1
+                1741 CLK=1 RST_N=1 START=1 A=  0 B=  0 | DONE=0 Y=  x ERROR=1
+                1745 CLK=0 RST_N=1 START=1 A=  0 B=  0 | DONE=0 Y=  x ERROR=1
+                1750 CLK=1 RST_N=1 START=1 A=  0 B=  0 | DONE=0 Y=  x ERROR=0
+                1755 CLK=0 RST_N=1 START=1 A=  0 B=  0 | DONE=0 Y=  x ERROR=0
+                1760 CLK=1 RST_N=1 START=1 A=  0 B=  0 | DONE=0 Y=  x ERROR=0
+                1761 CLK=1 RST_N=1 START=0 A=  0 B=  0 | DONE=0 Y=  x ERROR=0
+                1765 CLK=0 RST_N=1 START=0 A=  0 B=  0 | DONE=0 Y=  x ERROR=0
+                1770 CLK=1 RST_N=1 START=0 A=  0 B=  0 | DONE=0 Y=  x ERROR=1
+                1775 CLK=0 RST_N=1 START=0 A=  0 B=  0 | DONE=0 Y=  x ERROR=1
+                1780 CLK=1 RST_N=1 START=0 A=  0 B=  0 | DONE=1 Y=  x ERROR=1
+                1785 CLK=0 RST_N=1 START=0 A=  0 B=  0 | DONE=1 Y=  x ERROR=1
+                1790 CLK=1 RST_N=1 START=0 A=  0 B=  0 | DONE=1 Y=  x ERROR=1
+                1795 CLK=0 RST_N=1 START=0 A=  0 B=  0 | DONE=1 Y=  x ERROR=1
+                1800 CLK=1 RST_N=1 START=0 A=  0 B=  0 | DONE=0 Y=  x ERROR=1
+                1805 CLK=0 RST_N=1 START=0 A=  0 B=  0 | DONE=0 Y=  x ERROR=1
+Simulation complete via $finish(1) at time 1810 NS + 0
+./hw02_t.v:109     $finish;
+ncsim> exit
+TOOL:	ncverilog	14.10-s005: Exiting on Jun 20, 2019 at 08:38:36 CST  (total: 00:00:02)
